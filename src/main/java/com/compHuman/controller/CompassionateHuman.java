@@ -1,4 +1,4 @@
-package com.compHuman.demo;
+package com.compHuman.controller;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication
-@ComponentScan({"com.compHuman.demo","com.compHuman.service"})
+@ComponentScan({"com.compHuman.controller","com.compHuman.service"})
 
 public class CompassionateHuman extends SpringBootServletInitializer {
 	

@@ -60,7 +60,7 @@ $( document ).ready(function() {
    
 		 $.ajax({
              type: "POST",
-             url: "http://www.prachimundhada.com/sendmail",
+             url: "url",
              contentType: "application/json",
              data : JSON.stringify(input),
      		 dataType : 'json',		

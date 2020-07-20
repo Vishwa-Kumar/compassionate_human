@@ -1,4 +1,4 @@
-package com.compHuman.demo;
+package com.compHuman.controller;
 
 import javax.servlet.http.HttpServletResponse;
 
