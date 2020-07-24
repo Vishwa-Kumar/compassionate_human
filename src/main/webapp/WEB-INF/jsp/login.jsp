@@ -45,13 +45,13 @@ $( document ).ready(function() {
     var wish="Hi";
     var hr = day.getHours();
     if (hr >= 0 && hr < 12) {
-    	wish="Good Morning !";
+    	wish="Good Morning !!";
     } else if (hr == 12) {
-    	wish="Good Noon!";
+    	wish="Good Noon !!";
     } else if (hr >= 12 && hr <= 17) {
-    	wish="Good AferNoon !";
+    	wish="Good AferNoon !!";
     } else {
-    	wish="Good Evening !";
+    	wish="Good Evening !!";
     }
    $('.wish').text(wish+" ");
    
